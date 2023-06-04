@@ -2,6 +2,7 @@ DC MOTOR
 
 #include <xc.h>
 
+#pragma config OSC = HS //Oscillator Selection
 #pragma config WDT = OFF //Disable Watchdog timer
 #pragma config LVP = OFF //Disable Low Voltage Programming
 #pragma config PBADEN = OFF //Disable PORTB Analog inputs
